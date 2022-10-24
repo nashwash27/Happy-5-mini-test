@@ -1,0 +1,121 @@
+@font-face {
+    font-family:OpenSans;
+    src: url("open-sans.regular.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'OpenSans';
+}
+
+body {
+    display: flex;
+}
+
+main {
+    margin: 0px 50px ;
+}
+
+#menu{
+    width: 68px;
+    height:100vh;
+    background-color:#1A0931 ;
+    position: relative;
+}
+
+#menu .logo {
+    display: flex;
+}
+
+#menu .logo img{
+width: 28px;
+}
+
+
+.title {
+  margin-top: 20px;
+}
+
+
+.title-text{
+    font-size: 20px;
+    color: #2F3136;
+    line-height: 24px;
+    font-weight: bold;
+
+}
+
+.card-container{
+    margin-top: 24px;
+    border: 1px solid rgb(242, 242, 244);
+}
+
+
+.year-text{
+    line-height: 20px;
+    color :#5D6372;
+    font-size :12px; 
+}
+
+.year{
+    margin: -6px 0px;
+}
+
+
+.month-text {
+    line-height: 24px;
+    color :#5D6372;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.card-title {
+    line-height: 24px;
+    font-size: 14px;
+    color :#2F3136; 
+    font-weight: bold;
+}
+
+.card  .mb-3 {
+    width: 282px;
+    border-radius: 4px;
+}
+
+.icon-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.icon-merge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.icon-merge p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    color: #5D6372;
+}
+
+.create {
+font-weight: 400px;
+font-size: 14px;
+line-height: 20px;
+}
+
+.no-task { 
+    color: #B7BDC9;
+}
+
+.img-plus {
+font-size: 14px;
+  margin-right :11px
+}
+
+.add-data:hover{
+  background-color: antiquewhite;
+  }
